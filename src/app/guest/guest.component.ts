@@ -65,9 +65,9 @@ export class GuestComponent implements OnInit {
         }
       }
     }
-//updating the status to complete change status to done
+//updating the status to complete change status to done //changed from Done
     doneGuest(guest:Guest){
-      guest.status = 'Done'
+      guest.status = 'Checked Out'
       this.guestService.editGuest(guest).subscribe(res => {
         console.log('Update Succesful')
       }, err => {

@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { GuestHistoryComponent } from './guesthistory/guesthistory.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     NavComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    GuestHistoryComponent
   
   ],
   imports: [
